@@ -1,10 +1,10 @@
 :root {
-  --honeydew: #DFF8EB;
-  --hgray: #A28F9D;
-  --nickel: #95978e;
-  --dgray: #83807b;
-  --rifle: #48483A;
-  --selectedColor: var(--honeydew);
+  --main: #EDE7E3;
+  --second: #82C0CC;
+  --third: #4C3B4D;
+  --fourth: #BD9391;
+  --menu: #489FB5;
+  --selectedColor: var(--main);
 }
 
 * {
@@ -24,9 +24,8 @@
 }
 
 .menu-selector {
-  background-color: var(--rifle);
+  background-color: var(--menu);
   border: 1px solid black;
-  color: white;
   display: grid;
   justify-content: stretch;
   justify-items: stretch;
