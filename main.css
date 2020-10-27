@@ -1,0 +1,47 @@
+:root {
+  --honeydew: #DFF8EB;
+  --hgray: #A28F9D;
+  --nickel: #95978e;
+  --dgray: #83807b;
+  --rifle: #48483A;
+  --selectedColor: var(--honeydew);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: var(--selectedColor);
+}
+
+.footer-menu {
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  position: absolute;
+  width: 100%;
+}
+
+.menu-selector {
+  background-color: var(--rifle);
+  border: 1px solid black;
+  color: white;
+  display: grid;
+  justify-content: stretch;
+  justify-items: stretch;
+}
+
+.menu-title {
+  justify-self: stretch;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  transform: scaleY(0);
+}
+
